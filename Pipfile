@@ -1,0 +1,40 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+
+[packages]
+pipenv = "*"
+twine = "*"
+hachiko = "*"
+psutil = "*"
+glances = "*"
+ptyprocess = "*"
+python-daemon = "*"
+pytest-asyncio = "*"
+"boto3" = "*"
+click = "*"
+flask = "*"
+flask-restful = "*"
+marshmallow = "==3.0.0rc4"
+flask-marshmallow = "*"
+flask-bcrypt = "*"
+flask-jwt-extended = "*"
+flask-login = "*"
+pymongo = "*"
+flask-cors = "*"
+ply = ">=3.11"
+"3d08d0a" = {path = ".\\pymssql-2.1.3-cp36-cp36m-win_amd64.whl"}
+requests = { extras = ['socks'] }
+Django = '>1.10'
+pinax = { git = 'git://github.com/pinax/pinax.git', ref = '1.4', editable = true }
+stdeb = {version="*", markers="sys_platform == 'linux'"}
+
+[dev-packages]
+requests = ">=2.9.1"
+django = "*"
+pylint = "*"
+django-crispy-forms = "*"
+
+[requires]
+python_version = "3.5"
